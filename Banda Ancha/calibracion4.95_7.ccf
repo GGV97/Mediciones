@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!--Calkit Coefficient File Name: (Model# + Serial#).CCF-->
+<!--all values in standard units-->
+<CalKit model="XXXXXX" serialNum="XXXXXX" connType="K-Conn">
+  <MaleDevices>
+    <!--Sliding Load BreakPoint freq is in Hz-->
+    <SlidingLoadBreakPoint>2000000000</SlidingLoadBreakPoint>
+    <BBLoad1 serialNum="XXXXXX">
+      <Resistance>50</Resistance>
+      <Impedance>50</Impedance>
+      <length0>0</length0>
+      <length1>0</length1>
+      <length2>0</length2>
+      <length3>0</length3>
+      <C0>0</C0>
+      <C1>0</C1>
+      <C2>0</C2>
+      <C3>0</C3>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+    </BBLoad1>
+    <BBLoad2 serialNum="XXXXXX">
+      <Resistance>50</Resistance>
+      <Impedance>50</Impedance>
+      <length0>0</length0>
+      <length1>0</length1>
+      <length2>0</length2>
+      <length3>0</length3>
+      <C0>0</C0>
+      <C1>0</C1>
+      <C2>0</C2>
+      <C3>0</C3>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+    </BBLoad2>
+    <Short serialNum="XXXXXX">
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+      <OffsetLength>0.005</OffsetLength>
+    </Short>
+    <Open serialNum="XXXXXX">
+      <C0>-1E-15</C0>
+      <C1>6.5E-25</C1>
+      <C2>-2.3E-35</C2>
+      <C3>3.5E-46</C3>
+      <OffsetLength>0.005</OffsetLength>
+    </Open>
+  </MaleDevices>
+  <FemaleDevices>
+    <!--Sliding Load BreakPoint freq is in Hz-->
+    <SlidingLoadBreakPoint>2000000000</SlidingLoadBreakPoint>
+    <BBLoad1 serialNum="XXXXXX">
+      <Resistance>50</Resistance>
+      <Impedance>50</Impedance>
+      <length0>0</length0>
+      <length1>0</length1>
+      <length2>0</length2>
+      <length3>0</length3>
+      <C0>0</C0>
+      <C1>0</C1>
+      <C2>0</C2>
+      <C3>0</C3>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+    </BBLoad1>
+    <BBLoad2 serialNum="XXXXXX">
+      <Resistance>50</Resistance>
+      <Impedance>50</Impedance>
+      <length0>0</length0>
+      <length1>0</length1>
+      <length2>0</length2>
+      <length3>0</length3>
+      <C0>0</C0>
+      <C1>0</C1>
+      <C2>0</C2>
+      <C3>0</C3>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+    </BBLoad2>
+    <Short serialNum="XXXXXX">
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+      <OffsetLength>0.005</OffsetLength>
+    </Short>
+    <Open serialNum="XXXXXX">
+      <C0>-1.5E-15</C0>
+      <C1>7.2E-25</C1>
+      <C2>-2.3E-35</C2>
+      <C3>3.5E-46</C3>
+      <OffsetLength>0.005</OffsetLength>
+    </Open>
+  </FemaleDevices>
+</CalKit>
