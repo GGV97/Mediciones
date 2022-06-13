@@ -127,8 +127,16 @@ xlabel('Frequency (GHz)','FontSize',15);
 xlim([4.9 7.05])
 
 %%
-materials='abs10er_100';
-material=[repmat(materials,size(freq))];
-resultados=table(material,freq,real(eps_r),tan_delta);
-filaname='resultados.xlsx';
-writetable(resultados,'resultados.xlsx')
+%epse=eps_r
+%epse(max(size(epse)):max(size(epse))+200)=eps_r
+figure
+freq = transpose(linspace(5.0,7.0,length(epse)));   
+plot(freq,real(epse),'->','LineWidth',2,'MarkerIndices',1:50:length(epse)); 
+hold on
+plot(freq,abs(imag(epse)),'--<','LineWidth',2,'MarkerIndices',1:50:length(epse));
+
+ylabel('\epsilon_r','FontSize',15)
+xlabel('Frequency (GHz)','FontSize',15)
+ylim([0 15])
+grid on
+xlim([5.0 7.0])
